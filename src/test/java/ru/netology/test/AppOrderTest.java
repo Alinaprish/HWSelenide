@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.open;
 class AppOrderTest {
     @Test
     void shouldTest () {
-        open("http://localhost:7777");
+        open("http://localhost:9999");
         $("[data-test-id='name'] input").setValue("Екатерина");
         $("[data-test-id='phone'] input").setValue("+79105465454");
         $("[data-test-id='agreement']").click();
